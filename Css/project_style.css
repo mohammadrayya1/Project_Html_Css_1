@@ -1,0 +1,765 @@
+body
+{
+    height: 6000px;
+font-family: 'Varela Round', sans-serif;
+}
+
+.clearfix
+{
+    
+    clear: both;
+}
+.content
+{
+   
+    overflow: hidden;
+    width: 1170px;
+    padding-top: 0px;
+    margin:auto;
+    margin-top: 0px;
+}
+.header .navbar
+{
+    
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    height: 60px;
+    
+}
+
+.header .navbar ul
+{
+   
+    list-style: none;
+   float: right;
+    overflow: hidden;
+     padding-left:0;
+      width:70%;
+     
+}
+
+.header .navbar ul li 
+{
+   
+   padding:10px;
+   float: left;
+   margin-left: 30px;
+   
+  
+    
+    
+}
+.header .navbar ul li a
+{
+    
+    text-decoration: none;
+    color: white;
+}
+.header .navbar ul .activ a
+{
+    
+   
+    color: green;
+}
+.header .navbar ul li a:hover
+{
+    
+    
+    color: green;
+}
+.header .navbar h2
+{
+    width: 20%;
+    float: left;
+    padding-left: 90px;
+    
+}
+.header .navbar h2 span
+{
+    
+    color: green;
+    
+}
+.header .slider
+{
+    
+    background-image:url(../images/foto-slider.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 250px;
+    
+}
+.header .slider h2
+{
+    
+    margin: 0 auto;
+    width: 700px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.header .slider button
+{
+    border: 1px solid #FFF;
+    padding: 10px;
+    background: none;
+    color: white;
+    margin: 30px;
+    
+    
+    
+    .header
+    {
+        margin-bottom: 0px;
+        
+    }
+    
+ 
+}
+
+/*        start feature          */
+
+.layout .feat1, 
+.layout .feat11
+{
+    padding-top: 30px;
+    padding-left: 0px;
+    height: 250px;
+     width: 390px;
+    overflow: hidden;
+    float: left;
+    min-height: 50px;
+  
+    background-color: #FFF;
+    
+}
+.layout .feat11 h2,.layout .feat11 p
+{
+    padding-left: 90px;
+    
+    
+}
+.layout .feat1 p,.layout .feat11 p
+{
+    color: #888;
+    
+}
+
+.layout .feat1 h2,.layout .feat11 h2
+{
+    padding-top: 30px;
+    color:#555;
+    
+}
+ 
+.layout{
+    
+    height: 280px;
+    }
+    
+    
+    .layout .content
+    {
+        
+        background-color: white;
+    }
+
+
+/*         End feature  */
+
+
+
+/*         Start About-Me  */
+
+.about-me
+{
+
+    overflow: hidden;
+    
+   
+}
+.about-me .about-imag
+{
+    
+    height: 50%;
+    width: 33%;
+    float: left;
+}
+
+.about-imag img
+{
+  height: 465px;;
+  width: 100%;
+  
+}
+
+.about-me .content .about-info
+{
+  float: left;
+  width: 67%;
+  background-color: #CCC;
+  height: 466px;
+    
+    
+}
+
+.about-me .about-info .Hobbies
+{
+    
+    overflow: hidden;
+    
+    
+}
+.about-me .about-info h2
+{
+    
+   margin :30px 0 0 40px;
+    
+}
+.about-me .about-info p
+{
+    color: #888;
+   margin :10px 0 0 40px;
+    line-height: 1.7;
+}
+.about-me .about-info .con1 
+{
+    margin: 20px 0 10px 40px;
+    float: left;
+    overflow: hidden;
+    width:40%;
+   
+    
+}
+
+.about-me .about-info .con1 .icon img
+{
+    
+    
+
+  width: 100% ;  
+    
+}
+.about-me .about-info .con1 .text h2 ,.about-me .about-info .con1 .text p
+{
+   margin-left: 5px;
+   padding-left: 0px;
+   margin-top: 10px;
+    
+}
+.about-me .about-info .con1 .text h2
+{
+    
+    
+    font-size: 20PX;
+}
+.about-me .about-info .con1 .text
+{
+   
+    float: left;
+    width: 84%;
+   padding-left: 0px;
+   
+    
+}
+
+.about-me .about-info .con1 .icon
+{
+    width:14%;
+   
+    float: left;
+    margin-top: 10px;
+}
+
+/*         End  About-Me  */
+
+
+
+
+
+/*        Start My-skills*/
+
+
+.My-skills .skills h2 
+{
+   margin:50px 0 0 100px;
+   
+   padding-left: 0px;
+ 
+}
+.My-skills .skills button
+{
+    
+    
+      margin:10px 0 0 100px;
+   
+   padding-left: 0px;
+ 
+}
+
+.My-skills .skills p
+{
+     line-height: 1.7;
+      margin:10px 10px 0 100px;
+   
+   padding-left: 0px;
+    
+    
+}
+
+.My-skills
+{
+    overflow: hidden;
+    height: 400px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+   
+    
+}
+
+.My-skills .skills button
+{
+    
+    background: none;
+    font-size: 20px;
+    border: 1px solid #00ff33;
+    color: #00ff33;
+    padding: 5px;
+    width: 150px;
+    
+    
+}
+.My-skills .skills ,.My-skills .lang-skills
+{
+    
+    float: left;
+    width: 50%;
+    height:400px;
+   
+    
+    
+}
+.My-skills .lang-skills
+{
+padding-top:30px; 
+    height:370px;
+    
+}
+
+.My-skills .lang-skills  .lang h3
+{
+    
+ margin-bottom: 1px;
+    
+    
+    
+}
+.My-skills .lang-skills  .lang div span
+{
+    background-color: forestgreen;
+    display: block;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    
+    
+    
+    
+}
+
+.My-skills .lang-skills  .lang .per
+{
+    margin-top: 5px;
+    width: 91%;
+    height: 25px;
+    background-color: #CCC;
+    
+    
+}
+.My-skills .lang-skills  .lang 
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    
+    
+}
+.My-skills .content
+{
+   
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+/*         End  MY-Skills  */
+
+
+
+
+
+
+
+
+/*         Start  MY-Resume */
+
+.resume
+{
+   
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+    
+}
+
+.resume .my-resume
+{
+     padding-top: 100px;
+      background-color: #CCC;
+      text-align: center;
+      min-height: 400px;
+      float: left;
+      width: 100%;
+      
+    
+}
+
+.resume .my-resume button
+{
+    
+    background: none;
+    font-size: 20px;
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    padding: 5px;
+    width: 180px;
+    
+    
+}
+/*         End  MY-Resume  */
+
+
+
+
+
+
+
+/*         start  ed-ex  */
+
+.ed-ex 
+{
+    margin-bottom: 0px;
+    height: 1100px;
+    
+}
+.ed-ex .content
+{
+    background-color: white;
+    height: 1100px;
+    
+}
+.ed
+{
+    
+  
+    float: left;
+    width: 50%;
+}
+
+.ed-ex .ed h2
+{
+    
+    margin: 50px 0 0 100px;
+    
+    
+    
+}
+
+.ed-ex .ed p
+{
+    
+    margin: 10px 20px 0 100px;
+    line-height: 25px;
+    
+    
+    
+}
+.ed1 hr
+{
+    
+    
+    width: 70%;
+    margin-left: 0px;
+}
+.ed1
+{
+    height: 43%;
+    width: 50%;
+    float: left;
+    padding-top: 68px;
+    
+}
+.ed1 button
+{
+    background-color: darkgreen;
+    color: white;
+    margin-bottom: 15px;
+    border: 0px;
+  
+}
+.ed1 p
+{
+    
+    
+    width: 70%;
+    
+}
+
+
+/*         end  ed-ex  */
+
+
+
+
+
+
+
+
+
+
+/*         start john  */
+
+.jon
+{
+    padding-top: 0px;
+    overflow: hidden;
+    position: relative;
+    height:350px;
+}
+.jon .jon-info
+{
+  padding-top: 60px;
+   padding-bottom:  60px;
+  
+    position: relative;
+    text-align: center;
+    color: #252F31;
+    width: 100%;
+    height: 230px;
+    background-color: #EEE;
+    overflow: hidden;    
+    
+}
+.jon .content
+{
+    
+    height: 350px;
+    
+}
+.jon .jon-info ul
+{
+    
+    list-style: none;
+    margin-left: 0;
+    text-align: center;
+    
+    display: inline-block;
+    
+    
+}
+
+.jon .jon-info ul li 
+
+{
+   border:  1px solid #00ff33;
+   width: 15px;
+   height: 10px;
+   margin: 5px;
+   float: left;
+   padding-left: 0px;
+   cursor: pointer;
+   
+   
+    
+    
+}
+.jon .jon-info ul li:hover
+{
+    background-color: forestgreen;
+    
+}
+.jon .jon-info ul li.active
+{
+    
+   
+    background-color: forestgreen;
+}
+
+
+
+/*         End  john  */
+
+
+
+/*         Start  Portfolie  */
+
+
+
+.Protfolie .prot,.Protfolie .images
+{
+    
+    text-align: center;
+    background-color: white;
+    
+}
+.Protfolie .content
+{
+  height: 1570px;
+    background-color: white;
+    
+}
+.Protfolie .images > div
+{
+    width: 29.44444%;
+    margin: 10px;
+    float: left;
+     padding: 0 10px 0 10px ;
+}
+.Protfolie .images > div img
+{
+    width: 80%;
+    margin: 10px;
+    height: 60%;
+  
+    
+}
+.Protfolie 
+{
+    
+    height: 1570px;
+    
+}
+
+.Protfolie .images
+{
+    
+    padding-left: 10px;
+}
+/*         End     Portfolie */
+
+
+
+/*         start     Contact */
+
+
+.Contact .content
+{
+      height: 600px;
+    
+   background-color: #555; 
+    background-color: dimgrey;
+    
+}
+.Contact .con, .Contact .form
+{
+    width: 50%;
+    float: left;
+    
+}
+.Contact
+{
+    padding-top: 10px;
+    background-color: dimgrey;
+  
+    
+}
+
+
+.Contact .con h3
+{
+    
+
+    color: white;
+    margin: 50px 0 0 100px;
+    
+    
+    
+}
+.Contact .con p strong 
+{
+    color: white;
+    
+}
+
+.Contact .con p ,.Contact .con span 
+{
+    
+    margin: 10px 20px 0 100px;
+    line-height: 25px;
+    
+    
+    
+}
+    
+   .Contact .form
+    {
+        
+        
+        margin-top: 80px;
+    }
+    
+      .Contact .form label
+      {
+         
+          display: block;
+          color:#EEE;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          
+          
+      }
+      .Contact .form input[type="text"]
+      {
+          background-color: #CCC;
+           width: 60%;
+           height: 25px;
+           border: 0;
+          color: red;
+      }
+      
+       .Contact .form textArea
+       {
+           background-color: #CCC;
+           width: 357px;
+           height: 180px;
+           
+           display: block;
+       }
+       .Contact .form1 .form input[type="submit"]
+       {
+           background-color: black;
+           padding: 10px;
+           border: 0px;
+           color: white;
+           margin-top: 20px;
+           width: 150px;
+           
+       }
+      
+      
+
+
+
+
+
+/*         End      Contact */
+
+
